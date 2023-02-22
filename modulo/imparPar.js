@@ -14,17 +14,17 @@ const parImpar = function(valorInicio, valorFinal, escolha) {
     let contadorImpar = 0
 
     if (value == 1) {
-        console.log('*Pares*\n')
+        console.log('Pares\n')
         for (i = valorMin; i <= valormax; i++) {
             if (i % 2 == 0) {
                 console.log(`*  ${i}  *`)
                 contador++
             }
         }
-        console.log(`Quantidade de números pares encontrados ${contador}`)
+        console.log(`Números pares encontrados ${contador}`)
 
     } else if (value == 2) {
-        console.log('\n*Ímpares*\n')
+        console.log('\nÍmpares\n')
 
         for (i = valorMin; i <= valormax; i++) {
             if (i % 2 != 0) {
@@ -32,25 +32,25 @@ const parImpar = function(valorInicio, valorFinal, escolha) {
                 contadorImpar++
             }
         }
-        console.log(`Quantidade de números ímpares encontrados ${contador}`)
+        console.log(`Números ímpares encontrados ${contador}`)
 
     } else {
-        console.log('*Pares*\n')
+        console.log('Pares\n')
         for (i = valorMin; i <= valormax; i++) {
             if (i % 2 == 0) {
                 console.log(`*  ${i}  *`)
                 contador++
             }
         }
-        console.log(`Quantidade de números pares encontrados ${contador}`)
-        console.log('\n*Ímpares*\n')
+        console.log(`Números pares encontrados ${contador}`)
+        console.log('\nÍmpares\n')
         for (i = valorMin; i <= valormax; i++) {
             if (i % 2 != 0) {
                 console.log(`*  ${i}  *`)
                 contadorImpar++
             }
         }
-        console.log(`Quantidade de números ímpares encontrados ${contador}`)
+        console.log(`Números ímpares encontrados ${contador}`)
 
     }
 }
